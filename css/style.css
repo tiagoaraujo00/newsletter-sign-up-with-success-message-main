@@ -5,4 +5,25 @@
 }
 body {
   background-color: rgb(54,56,77);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  width: 45rem;
+  height: 28rem;
+  background-color: #FFF;
+  border-radius: 2rem;
+}
+.main__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__form {
+
+}
+.main__img {
+  
 }
