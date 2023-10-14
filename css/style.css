@@ -102,7 +102,11 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: .5rem;
+  gap: .8rem;
+}
+.main__list--item img {
+  width: .9rem;
+  height: .9rem;
 }
 .main__right {
   width: 40%;
