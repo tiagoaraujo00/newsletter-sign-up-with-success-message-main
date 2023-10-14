@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('../assets/fonts/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('../assets/fonts/Roboto-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +22,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+h1, label {
+  font-family: 'roboto-bold';
+}
+p {
+  font-family: 'roboto';
+  font-size: 12px;
 }
 .main {
   width: 46rem;
@@ -24,13 +44,33 @@ body {
   align-items: center;
   padding: 1rem;
 }
+.main__content--text {
+  padding-bottom: 3rem;
+}
 .main__left {
   display: flex;
   flex-direction: column;
   width: 60%;
+  align-items: center;
+}
+.main__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .main__form {
 
+}
+.main__list {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.main__list--item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .5rem;
 }
 .main__right {
   width: 40%;
@@ -38,7 +78,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .main__right img {
   width: 100%;
 }
