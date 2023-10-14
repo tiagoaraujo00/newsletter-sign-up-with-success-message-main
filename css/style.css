@@ -11,19 +11,34 @@ body {
   height: 100vh;
 }
 .main {
-  width: 45rem;
+  width: 46rem;
   height: 28rem;
   background-color: #FFF;
   border-radius: 2rem;
-}
-.main__content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.main__content {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.main__left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
 .main__form {
 
 }
-.main__img {
-  
+.main__right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__right img {
+  width: 100%;
 }
