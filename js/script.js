@@ -19,6 +19,7 @@ const buttonClick = () => {
     inputText.style.backgroundColor = "rgba(255,0,0,0.2)";
     inputText.style.borderColor = "red";
     pMessage.textContent = "Valid email required";
+    pMessage.style.color = "red"
   }
 };
 
