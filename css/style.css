@@ -81,6 +81,10 @@ p {
 }
 .form__label {
   padding-bottom: .3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  align-items: center;
 }
 .main__content--form input {
   width: 92%;
@@ -117,4 +121,9 @@ p {
 .main__right img {
   width: 100%;
   border-radius: 1.5rem;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  font-family: roboto;
 }
